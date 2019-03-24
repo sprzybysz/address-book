@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
 .App-header,
@@ -26,6 +27,27 @@
     width: 585px;
 }
 
-.App-link {
-  color: #3d5afe;
+.App-link,
+a {
+  color: #17a2b8;
+}
+.App-container {
+  margin-top: 7rem;
+}
+a:hover {
+  text-decoration: none;
+  color: #17a2b8;
+}
+.close {
+  color: white !important;
+  text-shadow: none !important;
+}
+.modal-dialog {
+    max-width: 900px;
+    min-height: 35vh;
+    margin: 3rem auto;
+}
+.modal-content {
+  border: none !important;
+  min-height: 35vh !important;
 }
